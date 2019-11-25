@@ -1,0 +1,106 @@
+footer {
+    background-color: #F2F2F2;
+}
+
+.copy-right {
+    background-color: #002D42
+}
+
+.social-icons {
+    padding-top: 2em;
+}
+
+.social-media {
+    width: 2.5em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#copyright-footer {
+    font-size: 12px !important;
+    color: white !important;
+    margin-top: 2em;
+}
+
+.col-duvidas {
+    padding-left: 8em;
+}
+
+#seloebit {
+    width: 4em;
+}
+
+#protegido {
+    margin-left: -5em;
+    margin-top: 2.3em;
+}
+
+#newslettertitle {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+ #commit {
+    width: 12em;
+    background-color: green;
+    color: white;
+    outline-style: none;
+    box-shadow: none;
+}
+
+#emailform {
+    width: 100%;
+    background-color: #F3FBFF;
+    outline-style: none;
+    box-shadow: none;
+    border-color:#002D42;
+    color: #002D42;
+}
+
+#emailform::placeholder {
+    color: #002D42
+}
+
+@media screen and (max-width: 450px) {
+    .col-duvidas {
+        padding-left: 1em;
+    }
+    footer .row b {
+        font-size: 20px;
+        margin-bottom: 1em
+    }
+    footer .row ul li {
+        margin-top: 10px
+    }
+
+    #seloebit {
+        width: 6em;
+    }
+    /*.social-icons {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }*/
+
+    .img-responsive-gsold {
+        width: 55%;
+    }
+    .social-media {
+        width: 2em;
+    }
+    #vtexlogo {
+        margin-left: -34px !important;
+    }
+    .social-icons {
+        padding-top: 0em;
+    }
+    #protegido {
+        margin-left: 0em !important;
+        margin-top: 2.3em;
+    }
+
+    #centerinmobile {
+        text-align: center;
+        margin-top: 1em;
+    }
+}

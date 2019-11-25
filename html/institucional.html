@@ -1,0 +1,63 @@
+<!-- 
+ *
+ * Desenvolvido por Integrando.se
+ * hello@integrando.se
+ * 
+ * Bootstrap v.3
+ *
+ -->
+
+ <!DOCTYPE html>
+ <html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+ 
+ <head>
+     <title>Institucional</title>
+     <vtex:metaTags/>
+     <vtex:template id="commonStyles" />
+     <link rel="stylesheet" href="/arquivos/institucional.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+ </head>
+ 
+ <body id="institucional-page">
+ 
+     <div class="page">
+ 
+         <!--  SubTemplate: Header -->
+         <vtex:template id="Header" />
+         <!-- /SubTemplate: Header -->
+                     
+         <div id="institucional-extra-top"></div>                    
+ 
+         <section id="institucional-content" class="container-fluid" style="padding-right: 8em;
+         padding-left: 8em;">
+ 
+             <div id="box-bread-brumb" class="hidden-xs">
+                 <vtex.cmc:breadCrumb />
+             </div>
+ 
+             <div class="titulo">
+                <h3><vtex:contentPlaceHolder id="Titulo-pagina" /></h3>
+            </div>
+
+            <div class="banner-page">
+                <vtex:contentPlaceHolder id="banner-pagina" />
+            </div>
+
+            <div class="conteudo-institucional">
+                <vtex:contentPlaceHolder id="page-content" />
+            </div>
+ 
+         </section><!-- #content -->  
+         
+         <div id="institucional-extra-bottom"></div>
+                 
+         <!--  SubTemplate: Footer -->
+         <vtex:template id="Footer" />
+         <!-- /SubTemplate: Footer -->
+     
+     </div>
+ 
+ </body>
+     <vtex:template id="commonScripts" />
+ </html>

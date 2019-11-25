@@ -1,0 +1,155 @@
+.title-category {
+    border-bottom: none;
+}
+
+.title-category h2 {
+    background-image: url(/arquivos/conector-titulo.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    height: 3em;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    color: #002D42;
+    padding-left: 6em;
+    font-size: 30px;
+    width: 14em;
+}
+
+.resultado-busca-filtro {
+    display: none !important;
+}
+
+.pages li.last, .pages li.first {
+    display: none !important;
+}
+
+.pages li.pgCurrent {
+    background-color: #003A56 !important;
+    color: #fff;
+    cursor: default;
+    margin: 1.4em;
+    border-radius: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+fieldset.refino label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#admake-advanced-filter>.box-filtro h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 21px;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.pages li.previous, .pages li.next {
+    background-color: transparent !important;
+    cursor: default;
+    border: none !important;
+}
+
+.navigation-tabs {
+    background: white !important;
+    padding-top: 2em;
+}
+
+#admake-advanced-filter {
+    display: none !important;
+}
+
+.ver-filtros {
+    font-size: 11px;
+    padding-left: 9px;
+}
+
+.menu-departamento {
+    padding: 2em;
+}
+
+.menu-departamento, .search-multiple-navigator {
+    display: block !important;
+}
+
+.search-multiple-navigator h3, .menu-navegue, .search-single-navigator, .search-multiple-navigator h4 {
+    display: none !important;
+}
+
+.ribbon-side {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #003A56;
+    transform: rotate(-45deg);
+    margin-left: -1em;
+    margin-bottom: -0.2em;
+    margin-top: 0em;
+    padding-top: -9px;
+}
+
+#filter-bar {
+    font-size: 25px !important;
+    line-height: 1em !important;
+    background-color: #007DB8;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: -0.54em;
+    color: white !important;
+}
+
+fieldset.refino {
+    border-bottom: solid 1px #C8C8C8;
+}
+
+fieldset.refino h5 {
+    font-size: 21px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+input[type=checkbox] {
+    margin: 4px 0px 10px;
+    -webkit-appearance: none;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    padding-left: 23px;
+    ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+input[type=checkbox]:checked:after {
+    content: '\2714';
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+    left: 9px;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .title-category h2 {
+        width: 12em;
+    }
+    #content {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}

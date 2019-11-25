@@ -1,0 +1,54 @@
+.prateleira .product-name a{
+    font-family: "Zilla Slab" !important;
+    color: black !important;
+    font-size: 26px !important;
+    font-weight: 700;
+    line-height: 28px;
+}
+.prateleira .price .best-price, .installment {
+    font-family: "Darker Grotesque" !important;
+}
+
+.prateleira .price .best-price {
+    color: #007DB8;
+    font-size: 38px !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.installment {
+    color:#4F4F4F !important;
+}
+
+.prateleira .btn-add-buy-button-asynchronous {
+    background-color: #FF6B24 !important;
+    font-size: 25px;
+    text-transform: uppercase !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 11px;
+    display: block;
+    width: auto; 
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.prateleira .box-item:hover img {
+    opacity: 1;
+}
+
+.product-image::after {
+    content: none !important;
+    background: none !important;
+}
+.prateleira .btn-add-buy-button-asynchronous .fa {
+    display: none;
+}
+
+.prateleira .box-item {
+    background-color: white;
+    padding-bottom: 4%;
+}

@@ -1,0 +1,287 @@
+.product-details {
+    background-color: white;
+}
+
+.productName {
+    font-size: 33px !important;
+    line-height: 1em !important;
+    background-color: #007DB8;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: -1.3em;
+    color: white !important;
+}
+
+.cart-counter h4, .productName, .specification, #product-specs a {
+    font-family: "Zilla Slab" !important;
+}
+
+.go-to-cart-button, .go-to-cart-button:hover {
+    color: #fff;
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: #FF6B24 !important;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.add-to-cart-button {
+    color: #007DB8;
+    border: 2px solid #007DB8;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    margin-left: 3em;
+    text-decoration: none;
+    outline-style: none;
+    box-shadow: none;
+}
+
+.added-to-cart {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    margin-left: 3em;
+    text-decoration: none;
+    outline-style: none;
+    box-shadow: none;
+}
+
+.prateleira.vitrine h2 {
+    background-image: url(/arquivos/conector-titulo.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    height: 3em;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    margin-top: 4em;
+    padding-left: 12em;
+    font-size: 22px;
+}
+
+.codigo-produto {
+    margin-bottom: 1em
+}
+
+.skuBestPrice {
+    color: #232F3E !important;
+    font-size: 56px !important;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    font-weight: 700;
+}
+
+.price-installments, .price-cash {
+    color: #4F4F4F !important;
+}
+
+.skuBestInstallmentValue, .skuBestPrice {
+    font-family: "Darker Grotesque" !important;
+}
+
+.rating-produto:after {
+    content: " ";
+}
+
+.product-details .price-box, .product-info .shipping-box {
+    border-bottom: none;
+    border-top: none;
+}
+
+.buy-button i, .box-qtd, #description, #specification, #reviews, .user-review h4, .added-to-cart {
+    display: none
+}
+
+.product-image .apresentacao .thumbs {
+    margin-left: 80%;
+}
+
+.product-image .apresentacao .thumbs li {
+    border: solid 2px #007DB8;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.qtd-field {
+    width: 42px;
+    text-align: center;
+    color: #232F3E;
+    font-family: "Darker Grotesque";
+    font-weight: 700;
+    font-size: 2em;
+    border: none;
+}
+
+.product-image .zoomPad {
+    margin-top: 5em;
+}
+
+.cart-counter h4, .specification {
+    color: #4F4F4F !important;
+    font-size: 20px !important;
+    line-height: 18px !important;
+    display: inline-block !important;
+    text-transform: uppercase !important;
+    margin-bottom: 2em !important;
+    font-weight: 300 !important;
+}
+
+.cart-counter .btn {
+    background-color: transparent;
+}
+
+.rating-produto:before {
+    font-size: 25px;
+}
+
+.owl-carousel .owl-item {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.ribbon-side {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #003A56;
+    transform: rotate(-45deg);
+    margin-left: -3em;
+    margin-bottom: -1.7em;
+    margin-top: 4em;
+}
+
+#product-specs a {
+    font-weight: 700;
+    color: #007DB8;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-decoration: none;
+    outline-style: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#product-specs {
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+#product-specs a:hover {
+    border-bottom: 3px solid #007DB8;
+}
+
+#product-specs a.active {
+    border-bottom: 3px solid #007DB8;
+}
+
+.productDescription, #caracteristicas, .avaliacao {
+    padding-top: 2.3em;
+    background-color: white;
+    padding-bottom: 8em;
+    padding-left: 2em;
+}
+
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+
+
+#comprar-flutuante .buy-button.buy-button-ref {
+    background-color:#FF6B24 !important;
+
+}
+
+@media (min-width: 1200px) {
+    .product-details .avaliacoes {
+        text-align: left;
+    }
+    #comprar-flutuante {
+        display: none !important;
+    }
+    section.container-fluid {
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    .product-details {
+        background-color: white;
+        margin-left: -8em;
+        margin-right: -8em;
+    }
+}
+
+@media (max-width: 1400px) {
+    .add-to-cart-button {
+        margin-left: 4px;
+    }
+    .ribbon-side {
+        margin-top: 2em;
+    }
+    .productName {
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    .row, .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .product-image .apresentacao .thumbs {
+        margin-left: 0;
+    }
+    #product-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .row.product-details {
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    .ribbon-side {
+        display: none;
+    }
+    .prateleira.vitrine h2 {
+        margin-top: 1em;
+        padding-left: 6em;
+    }
+
+    .showcase-owl .owl-controls .owl-buttons > div.owl-prev {
+        left: 12px;
+    }
+    .showcase-owl .owl-controls .owl-buttons > div.owl-next {
+        right: -19px;
+    }
+}
