@@ -12,24 +12,34 @@
     padding-bottom: 1em;
     margin-left: -1.3em;
     color: white !important;
+    font-weight: 500 !important;
 }
 
+.product-details .seletor-sku .topic {
+    margin-bottom: -18px !important;
+}
 .cart-counter h4, .productName, .specification, #product-specs a {
     font-family: "Zilla Slab" !important;
 }
 
 .go-to-cart-button, .go-to-cart-button:hover {
     color: #fff;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 5.3em;
+    padding-right: 5.3em;
     background-color: #FF6B24 !important;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     border-radius: 10px;
     font-size: 20px;
     text-decoration: none;
 }
 
+
+.product-details .price-box {
+    margin-bottom: 20px;
+    margin-top: 0px;  
+    padding-bottom: 0px !important;
+}
 .add-to-cart-button {
     color: #007DB8;
     border: 2px solid #007DB8;
@@ -40,7 +50,7 @@
     border-radius: 10px;
     font-size: 20px;
     background-color: transparent;
-    margin-left: 3em;
+    margin-left: 28px;
     text-decoration: none;
     outline-style: none;
     box-shadow: none;
@@ -69,7 +79,8 @@
 }
 
 .codigo-produto {
-    margin-bottom: 1em
+    margin-bottom: 1em;
+    font-family: 'Nunito', sans-serif;
 }
 
 .skuBestPrice {
@@ -117,8 +128,18 @@
     color: #232F3E;
     font-family: "Darker Grotesque";
     font-weight: 700;
-    font-size: 2em;
+    font-size: 40px;
     border: none;
+}
+
+.preco-a-vista.price-cash, .valor-dividido.price-installments {
+    font-family: "Darker Grotesque" !important;
+    font-weight: 400 !important;
+}
+
+
+.preco-a-vista.price-cash strong, .skuBestInstallmentValue, .skuBestInstallmentNumber{
+    font-weight: 400 !important;
 }
 
 .product-image .zoomPad {
@@ -134,7 +155,13 @@
     margin-bottom: 2em !important;
     font-weight: 300 !important;
 }
+.cart-counter h4 {
+    margin-bottom: 39px !important;
+}
 
+.product-details .seletor-sku {
+    margin-bottom: 45px;
+}
 .cart-counter .btn {
     background-color: transparent;
 }
@@ -216,11 +243,64 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 
+.product-info .seletor-sku .select .sku-selector[type='radio'] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;
+    margin: 4px 0px 10px;
+    -webkit-appearance: none;
+    background-color: white;
+    border: 2px solid #002D42;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    padding-left: 23px;
+    ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+.product-info .seletor-sku .select .sku-selector[type='radio']:checked:after {
+
+    content: 'X';
+    font-size: 30px;
+    position: absolute;
+    top: -2px;
+    left: 8px;
+    background-color: #002D42;
+    color: white;
+}
+
+
+
 
 
 #comprar-flutuante .buy-button.buy-button-ref {
     background-color:#FF6B24 !important;
 
+}
+
+.product-info .seletor-sku .select label {
+    margin-right: -3px !important;
+}
+.product-info .seletor-sku .select label:hover, .product-info .seletor-sku .select label.checked, .product-info .seletor-sku .select label.sku-picked {
+    border: none!important;
+    font-size: 20px;
+    color: #FA9917;
+}
+
+.rating-produto:before, .rating-demonstrativo:before, .rating-wrapper .rating:before {
+    color: #FFE862 !important;
+}
+
+#paddiv{
+    padding-left: 85px;
 }
 
 @media (min-width: 1200px) {
@@ -242,8 +322,20 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1400px) {
+   
     .add-to-cart-button {
-        margin-left: 4px;
+        padding-left: 0.3em;
+    padding-right: 0.3em;
+    }
+    .go-to-cart-button {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+
+    .go-to-cart-button:hover {
+        padding-left: 2.5em;
+    padding-right: 2.5em;
+        font-size: 15px;
     }
     .ribbon-side {
         margin-top: 2em;
@@ -251,6 +343,14 @@ input[type=number]::-webkit-inner-spin-button {
     .productName {
         padding-top: 0.4em;
         padding-bottom: 0.4em;
+    }
+
+    .skuBestPrice {
+        font-size: 46px !important;
+    }
+
+    #paddiv{
+        padding-left: 2em;
     }
 }
 

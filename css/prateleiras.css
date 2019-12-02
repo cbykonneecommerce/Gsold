@@ -2,8 +2,13 @@
     font-family: "Zilla Slab" !important;
     color: black !important;
     font-size: 26px !important;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 28px;
+}
+
+
+.prateleira .product-name {
+    margin-top: 2em;
 }
 .prateleira .price .best-price, .installment {
     font-family: "Darker Grotesque" !important;
@@ -14,7 +19,7 @@
     font-size: 38px !important;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .installment {
     color:#4F4F4F !important;
@@ -29,7 +34,7 @@
     color: #fff;
     padding: 11px;
     display: block;
-    width: auto; 
+    width: 85%; 
     margin: 0 auto;
     text-decoration: none;
     border-radius: 10px;
@@ -51,4 +56,12 @@
 .prateleira .box-item {
     background-color: white;
     padding-bottom: 4%;
+}
+
+
+@media (min-width: 600px) and (max-width: 1600px)  {
+    .prateleira .btn-add-buy-button-asynchronous {
+        font-size: 15px;
+         padding: 7px;
+    }
 }
