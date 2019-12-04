@@ -22,6 +22,10 @@
     font-family: "Zilla Slab" !important;
 }
 
+.cart-counter {
+    margin-top: 2em;
+}
+
 .go-to-cart-button, .go-to-cart-button:hover {
     color: #fff;
     padding-left: 5.3em;
@@ -273,13 +277,10 @@ input[type=number]::-webkit-inner-spin-button {
     position: absolute;
     top: -2px;
     left: 8px;
-    background-color: #002D42;
-    color: white;
+    /*background-color: #002D42;*/
+    color: black;
+    font-weight: bold;
 }
-
-
-
-
 
 #comprar-flutuante .buy-button.buy-button-ref {
     background-color:#FF6B24 !important;
@@ -326,15 +327,16 @@ input[type=number]::-webkit-inner-spin-button {
     .add-to-cart-button {
         padding-left: 0.3em;
     padding-right: 0.3em;
+    margin-left: 18px;
     }
-    .go-to-cart-button {
-        padding-left: 2.5em;
-        padding-right: 2.5em;
+    .go-to-cart-button, .go-to-cart-button:hover  {
+        padding-left: 2.3em !important;
+        padding-right: 2.3em !important;
     }
 
     .go-to-cart-button:hover {
-        padding-left: 2.5em;
-    padding-right: 2.5em;
+        padding-left: 2.3em;
+    padding-right: 2.3em;
         font-size: 15px;
     }
     .ribbon-side {
@@ -351,6 +353,10 @@ input[type=number]::-webkit-inner-spin-button {
 
     #paddiv{
         padding-left: 2em;
+    }
+
+    .cart-counter {
+        margin-top: 1em;
     }
 }
 

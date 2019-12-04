@@ -22,6 +22,10 @@ footer {
     margin-top: 2em;
 }
 
+.col-pague-com img {
+    width: 19em;
+}
+
 .col-duvidas {
     padding-left: 8em;
 }
@@ -102,5 +106,19 @@ footer {
     #centerinmobile {
         text-align: center;
         margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .col-seguranca ul li img {
+        width: 80%;
+    }
+
+    #vtexlogo {
+        margin-left: -69px !important;
+    }
+
+    .col-atendimento {
+        width: 70% !important;
     }
 }
