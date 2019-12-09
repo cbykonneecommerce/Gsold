@@ -7,7 +7,7 @@ footer {
 }
 
 .social-icons {
-    padding-top: 2em;
+    padding-top: 1.7em;
 }
 
 .social-media {
@@ -64,6 +64,11 @@ footer {
 
 #emailform::placeholder {
     color: #002D42
+}
+
+.col-seguranca ul li {
+    margin-bottom: 10px;
+    color: #333 !important;
 }
 
 @media screen and (max-width: 450px) {

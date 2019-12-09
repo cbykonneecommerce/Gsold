@@ -1,0 +1,263 @@
+/* /files/checkout5-custom.css */
+
+body {
+    background-color: #F3FBFF 
+}
+
+.row-fluid .full-cart.active {
+    background-color: white;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#cart-title, .icon-home, .icon-credit-card{
+    display: none !important;
+}
+
+
+.cart {
+    border: none;
+}
+
+.table.cart-items thead{
+
+    background-color: #007DB8;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 1em;
+    font-family: "Zilla Slab" !important;
+    padding-bottom: 1em;
+    margin-left: -1.3em;
+    color: white !important;
+    
+}
+
+.table.cart-items tr th {
+    font-weight: 200 !important;
+}
+
+.table.cart-items tbody tr, .table.cart-items tbody tr td a {
+    color: #4F4F4F !important;
+}
+
+.icon.icon-remove.item-remove-ico {
+    color: #002D42 !important;
+    font-size: 20px !important;
+}
+
+.icon.icon-minus-sign, .icon.icon-plus-sign, .srp-address-title, .onda-v1 .f5 {
+color: #002D42;
+}
+.onda-v1 .blue {
+    font-weight: bold;
+}
+.srp-main-title {
+    color: #333 !important;
+    font-weight: 500;
+    font-family: "Zilla Slab" !important;
+}
+
+.onda-v1 .gray, .srp-shipping-current-single__text,  #cart-choose-more-products{
+    color: #4F4F4F !important;
+}
+
+
+.srp-shipping-current-single__price {
+    color:#002D42 !important;
+    font-weight: 500;
+}
+.srp-shipping-current-single__sla {
+    color:#002D42
+
+}
+
+
+.srp-delivery-header .srp-items strong {
+    font-weight: inherit;
+}
+
+.srp-shipping-current-single {
+    border: solid 1px #002D42 !important;
+}
+
+
+.summary-template-holder .accordion-inner{
+    font-family: "Zilla Slab" !important;
+}
+.full-cart .summary-totalizers .info, .full-cart .summary-totalizers .monetary {
+    color: #002D42 !important;
+}
+
+
+.full-cart .summary-totalizers tr {
+    border-bottom: none !important;
+}
+
+.link-coupon-add{
+    color: #BDBDBD !important;
+}
+
+.btn-place-order {
+    font-family: "Zilla Slab" !important;
+    font-size: 25px;
+    background-color: #11AA27 !important;
+    text-shadow: none !important;
+    background-image: none !important;
+    border-color: transparent !important;
+}
+
+.full-cart .quantity input{
+    border: none !important
+}
+
+
+
+.client-profile-data, .iframe-credit-card-payment-group, .payment-data .step, .shipping-data, .cart-items, .mini-cart h2, .summary-template-holder, .steps-view, .iframe-debit-card-payment-group{
+    background-color: white;
+    border: none;
+}
+
+.step.active, .cart.active, .totalizers.active {
+    border-color: none;
+}
+
+.accordion-heading{
+    background-color: #007DB8;
+    width: 70%;
+}
+
+.accordion-toggle.collapsed {
+    color: white !important;
+    font-family: "Zilla Slab" !important;
+    margin-top: 19px !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.icon-user, #orderform-title{
+    display: none !important;
+}
+
+input {
+    border: solid 1px #002D42 !important;
+    border-radius: 6px !important;
+    font-family: "Darker Grotesque" !important;
+    font-size: 16px !important;
+    color: #002D42 !important;
+}
+
+label, .vtex-omnishipping-1-x-shippingSectionTitle {
+    color:#406271 !important
+}
+
+
+#go-to-shipping, #btn-go-to-payment, #payment-data-submit, #go-to-payment, #cart-choose-products{
+    font-family: "Zilla Slab" !important;
+    font-size: 25px;
+    background-color: #11AA27 !important;
+    text-shadow: none !important;
+    background-image: none !important;
+    border-color: transparent !important;
+}
+
+
+.payment-group-list-btn a{
+    
+    background-color: #11AA27 !important;
+    text-shadow: none !important;
+    background-image: none !important;
+    border-color: transparent !important;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+}
+
+.payment-group-list-btn a span {
+    font-family: "Zilla Slab" !important;
+    font-size: 16px;
+    background-image: none !important;
+    color: white;
+    padding-left: 30px;
+    padding-right: 0px !important;
+}
+
+.SecurityEnvironmentIcon .payment-environment-icon-text {
+    display: block;
+}
+
+.SecurityEnvironmentIcon{
+    text-align: center;
+    background-color: white;
+    border: solid 2px #5062C2;
+    color: #5062C2
+}
+
+.SecurityEnvironmentIcon .icon-lock{
+    float: initial;
+    text-align: center;
+}
+.SecurityEnvironmentIcon .payment-environment-icon-text{
+    display: block;
+    font-weight: bold;
+}
+
+
+.cart-fixed.cart-fixed-transition h2{
+    background-color: #007DB8;
+    border-radius: 0px;
+    color: white;
+    text-shadow: none;
+    font-family: "Zilla Slab" !important;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+}
+.mini-cart .item{
+    border: none !important;
+    color: #4F4F4F;
+}
+.mini-cart .item .fn {
+    font-weight: bold;
+}
+
+.mini-cart .table td, .mini-cart .table tfoot td {
+   color: #002D42
+}
+
+.mini-cart .table td{
+    font-size: 18px
+}
+.mini-cart .table tfoot td {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2em;
+    
+}
+
+.mini-cart .summary-template-holder, .mini-cart h2 {
+    background-color: white
+}
+
+.mini-cart .summary-template-holder{
+    border: none !important;
+    margin-top: -7px;
+}
+
+.body-order-form {
+    background-color: #F3FBFF;
+}
+
+.empty-cart-content {
+    padding-left: 2em
+}
+
+#client-profile-data, #payment-data, #shipping-data, .summary-cart-template-holder, .mini-cart .summary-template-holder {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+

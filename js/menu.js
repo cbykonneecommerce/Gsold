@@ -4,8 +4,8 @@ $(document).ready(function() {
     if (mq.matches) {
         console.log("entrei")
         $(".deptonav#novos").css("margin-left", "65%");
-        $(".deptonav#marcas").css("margin-left", "72%");
-        $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
+        //$(".deptonav#marcas").css("margin-left", "72%");
+       // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
         $(".deptonav#telefonia").css("margin-left", "61%");
         $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
     } else {
@@ -38,8 +38,8 @@ $(document).ready(function() {
                     $(".deptonav#marcas .menu-triangle").css("margin-left", "31em")
                     $(".deptonav#telefonia").css("margin-left", "46%");
                     $(".deptonav#telefonia .menu-triangle").css("margin-left", "30em")
-                    $(".deptonav#novos").css("margin-left", "53%");
-                    $(".deptonav#novos .menu-triangle").css("margin-left", "14em")
+                  //  $(".deptonav#novos").css("margin-left", "53%");
+                   
                 } else {
                     $(".deptonav#telefonia").css("margin-left", "57%");
                     $(".deptonav#marcas").css("margin-left", "67%");
@@ -156,8 +156,8 @@ $(document).ready(function() {
     
         if (mq.matches) {
             console.log("entrei")
-            $(".deptonav#marcas").css("margin-left", "72%");
-            $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
+           // $(".deptonav#marcas").css("margin-left", "72%");
+           // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
         } else {
             $(".deptonav#marcas").css("margin-left", "78%");
             $(".deptonav#marcas .menu-triangle").css("margin-left", "16em")
@@ -182,83 +182,83 @@ $(document).ready(function() {
     //  Controle para menu mobile 
     
     
-    $(".dropdown-btn#rouparia").toggle(() => {
+    $(".dropdown-btn#computadores").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#rouparia i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#rouparia").slideDown()
+        $(".dropdown-btn#computadores i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#computadores").slideDown()
     }, () => {
-        $(".dropdown-container#rouparia").hide()
-        $(".dropdown-btn#rouparia i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#computadores").hide()
+        $(".dropdown-btn#computadores i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#tableware").toggle(() => {
+    $(".dropdown-btn#personalizados").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#tableware i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#tableware").slideDown()
+        $(".dropdown-btn#personalizados i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#personalizados").slideDown()
     }, () => {
-        $(".dropdown-container#tableware").hide()
-        $(".dropdown-btn#tableware i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#personalizados").hide()
+        $(".dropdown-btn#personalizados i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#decor").toggle(() => {
+    $(".dropdown-btn#notebooks").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#decor i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#decor").slideDown()
+        $(".dropdown-btn#notebooks i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#notebooks").slideDown()
     }, () => {
-        $(".dropdown-container#decor").hide()
-        $(".dropdown-btn#decor i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#notebooks").hide()
+        $(".dropdown-btn#notebooks i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#moveis").toggle(() => {
+    $(".dropdown-btn#monitores").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#moveis i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#moveis").slideDown()
+        $(".dropdown-btn#monitores i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#monitores").slideDown()
     }, () => {
-        $(".dropdown-container#moveis").hide()
-        $(".dropdown-btn#moveis i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#monitores").hide()
+        $(".dropdown-btn#monitores i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#presentes").toggle(() => {
+    $(".dropdown-btn#acessorios").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#presentes i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#presentes").slideDown()
+        $(".dropdown-btn#acessorios i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#acessorios").slideDown()
     }, () => {
-        $(".dropdown-container#presentes").hide()
-        $(".dropdown-btn#presentes i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#acessorios").hide()
+        $(".dropdown-btn#acessorios i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#aromas").toggle(() => {
+    $(".dropdown-btn#games").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#aromas i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#aromas").slideDown()
+        $(".dropdown-btn#games i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#games").slideDown()
     }, () => {
-        $(".dropdown-container#aromas").hide()
-        $(".dropdown-btn#aromas i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#games").hide()
+        $(".dropdown-btn#games i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#baby").toggle(() => {
+    $(".dropdown-btn#novos").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#baby i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#baby").slideDown()
+        $(".dropdown-btn#novos i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#novos").slideDown()
     }, () => {
-        $(".dropdown-container#baby").hide()
-        $(".dropdown-btn#baby i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#novos").hide()
+        $(".dropdown-btn#novos i").attr('class', 'fa fa-angle-down');
     })
     
     
-    $(".dropdown-btn#custom").toggle(() => {
+    $(".dropdown-btn#telefonia").toggle(() => {
         $(".dropdown-container").hide();
-        $(".dropdown-btn#moveis i").attr('class', 'fa fa-angle-up');
-        $(".dropdown-container#custom").slideDown()
+        $(".dropdown-btn#telefonia i").attr('class', 'fa fa-angle-up');
+        $(".dropdown-container#telefonia").slideDown()
     }, () => {
-        $(".dropdown-container#custom").hide()
-        $(".dropdown-btn#custom i").attr('class', 'fa fa-angle-down');
+        $(".dropdown-container#telefonia").hide()
+        $(".dropdown-btn#telefonia i").attr('class', 'fa fa-angle-down');
     })
     
     

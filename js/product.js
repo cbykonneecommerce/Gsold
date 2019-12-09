@@ -90,37 +90,10 @@ $("#btn-reviews").click(()=>{
 })
 
 
-/*$(".add-to-cart-button").click(()=>{
-    vtexjs.catalog.getCurrentProductWithVariations().done(function (product) {
-        console.log(product, 'getcurrent');
-        item.id = product.skus[0].sku;
-        console.log(item)
-    
-        vtexjs.checkout.addToCart([item], null, 1)
-            .done(function (orderForm) {
-                $(".add-to-cart-button").text("INSERIDO NO CARRINHO!");
-                $(".add-to-cart-button").addClass("hvr-sweep-to-right")
-            });
-    });
-})*/
-/*$(".add-to-cart-button").click(()=>{
-    let item = {
-        quantity: 1,
-        seller: '1'
-    };
-    $(".add-to-cart-button").fadeOut("slow"); 
-    vtexjs.catalog.getCurrentProductWithVariations().done(function (product) {
-        console.log(product, 'getcurrent');
-        item.id = product.skus[0].sku;
-        console.log(item);
-    
-        vtexjs.checkout.addToCart([item], null, 1)
-            .done(function (orderForm) {
-                    $(".added-to-cart").fadeIn()
-            });
-    });
-     
-})*/
+
+
+
+
 
 
     

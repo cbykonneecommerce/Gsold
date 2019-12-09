@@ -23,7 +23,17 @@
     display: none !important;
 }
 
-.pages li.pgCurrent {
+.pages li.page-number  {
+    background-color: transparent;
+    cursor: default;
+    margin: 1.4em;
+    border-radius: 100%;
+    padding-top: 7px;
+    color: black;
+    padding-bottom: 7px;
+    border: solid 1px #003A56;
+}
+.pages li.pgCurrent{
     background-color: #003A56 !important;
     color: #fff;
     cursor: default;
@@ -144,6 +154,20 @@ input[type=checkbox]:checked:after {
     color: black;
 }
 
+
+.filtro-btn-mobile {
+    text-align: center;
+    background-color: #003A56;
+    color: white;
+}
+
+.filtro-btn-mobile h4 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+}
 @media (max-width: 500px) {
     .title-category h2 {
         width: 12em;
@@ -151,5 +175,11 @@ input[type=checkbox]:checked:after {
     #content {
         padding-right: 15px !important;
         padding-left: 15px !important;
+    }
+
+    .pages li.pgCurrent, .pages li.page-number {
+    
+        margin: 0.2em;
+        
     }
 }

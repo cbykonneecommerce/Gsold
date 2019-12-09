@@ -20,6 +20,7 @@
 }
 .cart-counter h4, .productName, .specification, #product-specs a {
     font-family: "Zilla Slab" !important;
+
 }
 
 .cart-counter {
@@ -196,7 +197,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 #product-specs a {
     font-weight: 700;
-    color: #007DB8;
+    color: #333;
     float: left;
     display: block;
     text-align: center;
@@ -220,6 +221,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 #product-specs a:hover {
     border-bottom: 3px solid #007DB8;
+    color: #007DB8;
 }
 
 #product-specs a.active {
@@ -231,6 +233,8 @@ input[type=number]::-webkit-inner-spin-button {
     background-color: white;
     padding-bottom: 8em;
     padding-left: 2em;
+    font-family: "Darker Grotesque" !important;
+    font-size: 20px !important;
 }
 
 .hvr-sweep-to-right {
@@ -296,12 +300,30 @@ input[type=number]::-webkit-inner-spin-button {
     color: #FA9917;
 }
 
-.rating-produto:before, .rating-demonstrativo:before, .rating-wrapper .rating:before {
+.rating-produto:before, .rating-demonstrativo:before, .rating-wrapper .rating:before,.rating-avalie .ratingStar.emptyRatingStar:before, .rating-avalie .ratingStar.filledRatingStar:before {
     color: #FFE862 !important;
 }
 
+.product-info .shipping-box label .fitext ,.product-info .shipping-box .freight-btn{
+    border: 1px solid #007DB8 !important;
+}
+
+.product-info .shipping-box .freight-btn {
+    margin-top: -3px;
+}
+
+
+.product-info .shipping-box .freight-btn:hover {
+    background-color: transparent!important;
+}
 #paddiv{
     padding-left: 85px;
+}
+
+#reviews #formUserReview .avaliar a, #reviews #lnkPubliqueResenha {
+    background-color: #232F3E !important;
+    font-size: 22px;
+    font-family: "Darker Grotesque" !important;
 }
 
 @media (min-width: 1200px) {
@@ -322,7 +344,7 @@ input[type=number]::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1700px) {
    
     .add-to-cart-button {
         padding-left: 0.3em;
@@ -337,7 +359,6 @@ input[type=number]::-webkit-inner-spin-button {
     .go-to-cart-button:hover {
         padding-left: 2.3em;
     padding-right: 2.3em;
-        font-size: 15px;
     }
     .ribbon-side {
         margin-top: 2em;
@@ -348,7 +369,7 @@ input[type=number]::-webkit-inner-spin-button {
     }
 
     .skuBestPrice {
-        font-size: 46px !important;
+        font-size: 40px !important;
     }
 
     #paddiv{
@@ -356,7 +377,27 @@ input[type=number]::-webkit-inner-spin-button {
     }
 
     .cart-counter {
-        margin-top: 1em;
+        margin-top: -21px;
+    }
+
+    .productName {
+        font-size: 30px !important;
+    }
+    .product-details .price-box {
+        margin-bottom: 0px !important;
+    }
+    .specification{
+        margin-bottom: 0em !important; 
+    }
+    .product-details .seletor-sku{
+        margin-bottom: 25px !important;
+    }
+    .product-details .seletor-sku .specification{
+        margin-top: -7px;
+    }
+
+    .codigo-produto,.product-details .product-name{
+        margin-bottom: 6px;
     }
 }
 
@@ -389,5 +430,24 @@ input[type=number]::-webkit-inner-spin-button {
     }
     .showcase-owl .owl-controls .owl-buttons > div.owl-next {
         right: -19px;
+    }
+
+    #reviews .avalie-produto #opcoes-avalie .firadio {
+        margin: -5px 6px 0 0 !important;
+    }
+
+
+    .go-to-cart-button.flutuante {
+        text-align: center;
+    display: block;
+    width: 100%;
+    }
+
+    .add-to-cart-button.flutuante {
+        display: block;
+        text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 1em;
     }
 }

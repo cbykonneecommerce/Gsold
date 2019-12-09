@@ -2,7 +2,10 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
 }*/
-
+#home-content {
+    padding-right: 10em;
+    padding-left: 10em;
+}
 
 
 #propostascomerciais{
@@ -20,7 +23,7 @@
 .titulo h3 {
     margin-left: 6em;
     font-family: 'Zilla Slab', serif;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 #carouselpropostas .owl-prev,  #carouselpropostas .owl-next {
@@ -48,10 +51,10 @@
     text-align: center;
 }
 
-#propostascomerciais .row .col-sm-2  {
+/*#propostascomerciais .row .col-sm-2  {
     margin-left: 2em;
     margin-right: 2em;
-}
+}*/
 
 #newsletter {
     
@@ -85,7 +88,7 @@
     color: #002D42
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
 
     #centerinmobile {
         text-align: center;
@@ -95,5 +98,20 @@
     }
     #category-extra-vitrine-2 .row .col-sm-4 a img, #banners-institucional .col-sm-6 a img {
         margin-top: 2em;
+    }
+    #home-content{
+        padding-right: 15px;
+    padding-left: 15px;
+    }
+
+
+   
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1700px) {
+    #home-content {
+        width: 1170px !important;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
