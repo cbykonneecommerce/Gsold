@@ -22,16 +22,18 @@ footer {
     margin-top: 2em;
 }
 
+
+.footer b {
+    font-size: 18px !important;
+}
 .col-pague-com img {
     width: 19em;
 }
 
-.col-duvidas {
-    padding-left: 8em;
-}
+
 
 #seloebit {
-    width: 4em;
+    width: 5em;
 }
 
 #protegido {
@@ -43,6 +45,7 @@ footer {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 1em;
+    font-family: "Zilla Slab" !important;
 }
 
  #commit {
@@ -51,6 +54,7 @@ footer {
     color: white;
     outline-style: none;
     box-shadow: none;
+    font-family: "Zilla Slab" !important;
 }
 
 #emailform {
@@ -60,6 +64,7 @@ footer {
     box-shadow: none;
     border-color:#002D42;
     color: #002D42;
+    padding-left: 35px;
 }
 
 #emailform::placeholder {
@@ -71,7 +76,18 @@ footer {
     color: #333 !important;
 }
 
-@media screen and (max-width: 450px) {
+
+#newsletter-container{
+    max-width: 100%;
+    background-image: url(/arquivos/circuito.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: 100%;
+    height: 11em;
+    margin-bottom: -2em;
+}
+
+@media screen and (max-width: 900px) {
     .col-duvidas {
         padding-left: 1em;
     }
@@ -125,5 +141,22 @@ footer {
 
     .col-atendimento {
         width: 70% !important;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1800px) {
+    #logo-vtex-desk{
+        margin-left: -60px
+    }
+
+    #logo-protegido-desk{
+        margin-left: -80px
+    }
+
+    #newsletter-container{
+        height: 16em;
     }
 }

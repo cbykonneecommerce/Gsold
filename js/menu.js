@@ -3,16 +3,21 @@ $(document).ready(function() {
     const mq = window.matchMedia("(max-width: 1600px)");
     if (mq.matches) {
         console.log("entrei")
-        $(".deptonav#novos").css("margin-left", "65%");
+        //$(".deptonav#novos").css("margin-left", "65%");
+        $(".deptonav#notebooks").css("margin-left", "19%");
+        $(".deptonav#monitores").css("margin-left", "30%");
+        $(".deptonav#acessorios").css("margin-left", "39%");
+        $(".deptonav#games").css("margin-left", "49%");
+        $(".deptonav#novos").css("margin-left", "58%");
         //$(".deptonav#marcas").css("margin-left", "72%");
        // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
-        $(".deptonav#telefonia").css("margin-left", "61%");
+        $(".deptonav#telefonia").css("margin-left", "56%");
         $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
     } else {
-        $(".deptonav#telefonia").css("margin-left", "67%");
+       // $(".deptonav#telefonia").css("margin-left", "67%");
         $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
-        $(".deptonav#marcas").css("margin-left", "78%");
-        $(".deptonav#marcas .menu-triangle").css("margin-left", "16em")
+        //$(".deptonav#marcas").css("margin-left", "75%");
+        //$(".deptonav#marcas .menu-triangle").css("margin-left", "19em")
     }
     
     
@@ -34,8 +39,8 @@ $(document).ready(function() {
             if (deptoname === ".depto-marcas" || deptoname == ".depto-telefonia" || deptoname == ".depto-novos") {
     
                 if (mq.matches) {
-                    $(".deptonav#marcas").css("margin-left", "56%");
-                    $(".deptonav#marcas .menu-triangle").css("margin-left", "31em")
+                    $(".deptonav#marcas").css("margin-left", "62%");
+                    $(".deptonav#marcas .menu-triangle").css("margin-left", "25em")
                     $(".deptonav#telefonia").css("margin-left", "46%");
                     $(".deptonav#telefonia .menu-triangle").css("margin-left", "30em")
                   //  $(".deptonav#novos").css("margin-left", "53%");
@@ -83,6 +88,12 @@ $(document).ready(function() {
         })
     
     $(".depto-notebooks").hover(() => {
+
+        if (mq.matches) {
+            console.log("entrei")
+            $(".deptonav#notebooks").css("margin-left", "19%");
+          
+        }
     
         $(".depto-notebooks#notebooks").show();
         deptonav(".depto-notebooks");
@@ -93,6 +104,12 @@ $(document).ready(function() {
         })
     
     $(".depto-monitores").hover(() => {
+
+        if (mq.matches) {
+            console.log("entrei")
+            $(".deptonav#monitores").css("margin-left", "30%");
+          
+        }
     
         $(".depto-monitores#monitores").show();
         deptonav(".depto-monitores");
@@ -123,7 +140,7 @@ $(document).ready(function() {
     
         if (mq.matches) {
             console.log("entrei")
-            $(".deptonav#novos").css("margin-left", "65%");
+            $(".deptonav#novos").css("margin-left", "58%");
           
         }
         $(".depto-novos#novos").show();
@@ -138,7 +155,7 @@ $(document).ready(function() {
     
         if (mq.matches) {
             console.log("entrei")
-            $(".deptonav#telefonia").css("margin-left", "61%");
+           // $(".deptonav#telefonia").css("margin-left", "61%");
             $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
         } else {
             $(".deptonav#telefonia").css("margin-left", "67%");
@@ -159,7 +176,7 @@ $(document).ready(function() {
            // $(".deptonav#marcas").css("margin-left", "72%");
            // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
         } else {
-            $(".deptonav#marcas").css("margin-left", "78%");
+            $(".deptonav#marcas").css("margin-left", "71%");
             $(".deptonav#marcas .menu-triangle").css("margin-left", "16em")
         }
         $(".depto-marcas#marcas").show();

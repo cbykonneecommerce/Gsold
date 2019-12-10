@@ -43,8 +43,8 @@
     padding-bottom: 7px;
 }
 
-fieldset.refino label {
-    display: inline-block;
+fieldset.refino label, fieldset.refino-marca label {
+    display: block;
     max-width: 100%;
     margin-bottom: 5px;
     font-family: 'Zilla Slab', serif;
@@ -120,7 +120,7 @@ fieldset.refino {
     border-bottom: solid 1px #C8C8C8;
 }
 
-fieldset.refino h5 {
+fieldset.refino h5, fieldset.refino-marca h5 {
     font-size: 21px;
     font-family: 'Zilla Slab', serif;
     font-weight: 700;
@@ -181,5 +181,18 @@ input[type=checkbox]:checked:after {
     
         margin: 0.2em;
         
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .sidebar{
+        width: 18% !important;
+    }
+    .title-category h2{
+        width: 20em;
+        padding-left: 9em;
+    }
+    #product-specs a{
+        font-size: 25px;
     }
 }

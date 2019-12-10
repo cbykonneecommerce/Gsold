@@ -16,14 +16,16 @@
     background-image: url(/arquivos/conector-titulo.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain;
-    height: 3em;
+    height: 3.6em;
     margin-top: 4em;
 }
 
 .titulo h3 {
-    margin-left: 6em;
-    font-family: 'Zilla Slab', serif;
+    margin-left: 7em;
+    font-family: "Zilla Slab", serif;
     font-weight: bold;
+    font-size: 30px;
+
 }
 
 #carouselpropostas .owl-prev,  #carouselpropostas .owl-next {
@@ -114,4 +116,23 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+}
+
+
+@media screen and (min-width: 1800px) {
+        .titulo {
+            background-image: url(/arquivos/conector-titulo.png) !important;
+            background-repeat: no-repeat !important;
+            background-size: contain;
+            height: 4em;
+            margin-top: 4em;
+        }
+        
+        .titulo h3 {
+            margin-left: 6em;
+            font-family: "Zilla Slab", serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    
 }
