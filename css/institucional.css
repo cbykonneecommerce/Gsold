@@ -25,10 +25,19 @@
 }
 
 
-@media screen and (max-width: 450px) {
+.medalhas {
+    max-width: 4%;
+}
+
+@media screen and (max-width: 900px) {
 
     .container-fluid {
      padding-right: 15px !important; 
     padding-left: 15px !important;
     }
+
+    .medalhas {
+        max-width: 8%;
+    }
+    
 }

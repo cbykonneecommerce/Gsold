@@ -90,6 +90,15 @@
     color: #002D42
 }
 
+
+.prateleira.vitrine h2 {
+    display: none;
+}
+
+.prateleira.vitrine .owl-item li {
+    margin-right: 1em;
+    margin-left: 1em;
+}
 @media screen and (max-width: 900px) {
 
     #centerinmobile {

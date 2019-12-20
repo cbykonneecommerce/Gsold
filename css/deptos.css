@@ -46,7 +46,7 @@
 fieldset.refino label, fieldset.refino-marca label {
     display: block;
     max-width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: -13px;
     font-family: 'Zilla Slab', serif;
     font-weight: 100;
     font-size: 16px;

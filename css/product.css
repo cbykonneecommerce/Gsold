@@ -321,7 +321,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 #reviews #formUserReview .avaliar a, #reviews #lnkPubliqueResenha {
-    background-color: #232F3E !important;
+    background-color: #FF6B24 !important;
     font-size: 22px;
     font-family: "Darker Grotesque" !important;
 }

@@ -13,6 +13,16 @@
 }
 
 
+
+#hiroshimanagazap{
+    width: 5em;
+    position: fixed;
+    top: 85%;
+    right: 3em;
+    z-index: 9999999;
+
+}
+
 #storenav  span{
     font-family: "Zilla Slab" !important;
 }
@@ -292,67 +302,67 @@ padding-left: 5em;
 
 .deptonav#computadores .row .main {
     border-left: solid 7px #7D13DB;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(125,19,219,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(125,19,219,1);
-box-shadow: inset -13px -1px 11px -5px rgba(125,19,219,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(125,19,219,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(125,19,219,1);
+box-shadow: inset -9px -1px 11px -5px rgba(125,19,219,1);
 }
 
 .deptonav#monitores .row .main {
     border-left: solid 7px #0CC142;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(12,193,66,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(12,193,66,1);
-box-shadow: inset -13px -1px 11px -5px rgba(12,193,66,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(12,193,66,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(12,193,66,1);
+box-shadow: inset -9px -1px 11px -5px rgba(12,193,66,1);
 }
 
 .deptonav#notebooks .row .main {
     border-left: solid 7px #EDC500;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(237,197,0,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(237,197,0,1);
-box-shadow: inset -13px -1px 11px -5px rgba(237,197,0,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(237,197,0,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(237,197,0,1);
+box-shadow: inset -9px -1px 11px -5px rgba(237,197,0,1);
 }
 
 .deptonav#personalizados .row .main {
     border-left: solid 7px #2CBCF4;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(44,188,244,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(44,188,244,1);
-box-shadow: inset -13px -1px 11px -5px rgba(44,188,244,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(44,188,244,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(44,188,244,1);
+box-shadow: inset -9px -1px 11px -5px rgba(44,188,244,1);
 }
 
 .deptonav#acessorios .row .main {
     border-left: solid 7px #EF5EE8;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(239,94,232,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(239,94,232,1);
-box-shadow: inset -13px -1px 11px -5px rgba(239,94,232,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(239,94,232,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(239,94,232,1);
+box-shadow: inset -9px -1px 11px -5px rgba(239,94,232,1);
 }
 
 .deptonav#games .row .main {
     border-left: solid 7px #1156FF;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(17,86,255,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(17,86,255,1);
-box-shadow: inset -13px -1px 11px -5px rgba(17,86,255,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(17,86,255,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(17,86,255,1);
+box-shadow: inset -9px -1px 11px -5px rgba(17,86,255,1);
 }
 
 .deptonav#novos .row .main {
     border-left: solid 7px #DD3E3E;
-    -webkit-box-shadow: inset -13px -1px 11px -5px rgba(221,62,62,1);
--moz-box-shadow: inset -13px -1px 11px -5px rgba(221,62,62,1);
-box-shadow: inset -13px -1px 11px -5px rgba(221,62,62,1);
+    -webkit-box-shadow: inset -9px -1px 11px -5px rgba(221,62,62,1);
+-moz-box-shadow: inset -9px -1px 11px -5px rgba(221,62,62,1);
+box-shadow: inset -9px -1px 11px -5px rgba(221,62,62,1);
 }
 
 .deptonav#telefonia .row .main {
     border-right: solid 7px #1A7146;
     margin-left: 0 !important;
-    -webkit-box-shadow: inset 13px -1px 11px -5px rgba(26,113,70,1);
--moz-box-shadow: inset 13px -1px 11px -5px rgba(26,113,70,1);
-box-shadow: inset 13px -1px 11px -5px rgba(26,113,70,1);
+    -webkit-box-shadow: inset 9px -1px 11px -5px rgba(26,113,70,1);
+-moz-box-shadow: inset 9px -1px 11px -5px rgba(26,113,70,1);
+box-shadow: inset 9px -1px 11px -5px rgba(26,113,70,1);
 }
 
 .deptonav#marcas .row .main {
     border-right: solid 7px #EF8200;
     margin-left: 0 !important;
-    -webkit-box-shadow: inset 13px -1px 11px -5px rgba(239,130,0,1);
--moz-box-shadow: inset 13px -1px 11px -5px rgba(239,130,0,1);
-box-shadow: inset 13px -1px 11px -5px rgba(239,130,0,1);
+    -webkit-box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
+-moz-box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
+box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
 }
 
 .deptonav#computadores .row .col-sm-3 h4 {

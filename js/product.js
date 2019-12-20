@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 
 $(".go-to-cart-button").attr("href", `/checkout/cart/add?sku=${sku}&qty=1&seller=1&redirect=true&sc=1`);
-$(".add-to-cart-button").attr("href", `/checkout/cart/add?sku=${sku}&qty=1&seller=1&redirect=true&sc=1`);
+$(".add-to-cart-button").attr("href", `/checkout/cart/add?sku=${sku}&qty=1&seller=1&redirect=false&sc=1`);
 
 $(".btn-mais").click(()=>{
     
@@ -92,7 +92,20 @@ $("#btn-reviews").click(()=>{
 
 
 
-
+$(".add-to-cart-button").click((e)=>{
+    e.preventDefault();
+        var url = $(".add-to-cart-button").attr('href');
+    
+        $.ajax({
+            url:  url,
+            type: "GET",
+            crossDomain: !0,
+            dataType: "html",
+            success: function() {
+                alert("Produto adicionado ao carrinho!");
+            }
+        })
+    })
 
 
 
