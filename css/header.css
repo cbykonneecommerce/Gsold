@@ -23,6 +23,8 @@
 
 }
 
+
+
 #storenav  span{
     font-family: "Zilla Slab" !important;
 }
@@ -581,6 +583,10 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
     }
     #storenav li a img {
         width: 30%;
+    }
+
+    .ui-autocomplete {
+        width: 28%! important;
     }
     
 }
