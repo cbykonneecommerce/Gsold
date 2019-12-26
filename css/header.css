@@ -495,6 +495,8 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
         padding-bottom: 10px;
         font-size: 20px;
         display: block;
+        background-color: transparent;
+        border: none;
     }
     .dropdown-container a {
         margin: 1em;
