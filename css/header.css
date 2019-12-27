@@ -111,6 +111,7 @@ padding-left: 5em;
 
 .dropdown-menu li a {
     color: white !important;
+    display: inline-block !important;
 }
 
 .dropdown-menu>li>a:hover {
