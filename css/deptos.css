@@ -47,9 +47,15 @@ fieldset.refino label, fieldset.refino-marca label {
     display: block;
     max-width: 100%;
     margin-bottom: -13px;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 100;
+    font-family: "Darker Grotesque", serif;
+    font-weight: 500;
     font-size: 16px;
+}
+
+fieldset.refino-marca .ver-filtros, fieldset.refino .ver-filtros {
+    float: right;
+    font-size: 15px !important;
+    margin-top: 3em;
 }
 
 #admake-advanced-filter>.box-filtro h3 {
@@ -116,7 +122,7 @@ fieldset.refino label, fieldset.refino-marca label {
     color: white !important;
 }
 
-fieldset.refino {
+fieldset.refino, fieldset.refino-marca {
     border-bottom: solid 1px #C8C8C8;
 }
 
@@ -124,6 +130,14 @@ fieldset.refino h5, fieldset.refino-marca h5 {
     font-size: 21px;
     font-family: 'Zilla Slab', serif;
     font-weight: 700;
+}
+
+fieldset.refino a, fieldset.refino-marca a {
+    font-size: 21px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #002D42 !important;
+    text-decoration: none;
 }
 
 input[type=checkbox] {
