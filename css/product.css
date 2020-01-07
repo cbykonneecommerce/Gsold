@@ -250,7 +250,9 @@ input[type=number]::-webkit-inner-spin-button {
     transition-duration: 0.3s;
 }
 
-
+#publishUserReview #formUserReview {
+    z-index: 9999999999999 !important;
+}
 .product-info .seletor-sku .select .sku-selector[type='radio'] {
     -webkit-appearance: checkbox;
     -moz-appearance: checkbox;
@@ -326,6 +328,18 @@ input[type=number]::-webkit-inner-spin-button {
     font-family: "Darker Grotesque" !important;
 }
 
+
+
+.dados .email-resenha, .resenha-util-quantidade {
+    font-size: 15px;
+}
+.rating-wrapper .rating {
+    display: inline-block;
+}
+
+#reviews .resenhas .opiniao-ajudou .bts li a {
+    text-transform: uppercase;
+}
 @media (min-width: 1200px) {
     .product-details .avaliacoes {
         text-align: left;
