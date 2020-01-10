@@ -156,6 +156,10 @@ padding-left: 5em;
     color: white !important;
 }
 
+
+#vtexIdContainer {
+    z-index: 999999999999999999999999 !important;
+}
 .btn-buscar {
     background-image: url(/arquivos/lupa.png) !important;
     background-repeat: no-repeat !important;
@@ -466,7 +470,7 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
     margin-left: 0em!important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
     .header .container-fluid {
         border-bottom-color: transparent !important;
         padding-left: 15px !important;
@@ -494,7 +498,7 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
     .dropdown-btn {
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 18px;
         display: block;
         background-color: transparent;
         border: none;
@@ -593,3 +597,46 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
     }
     
 }
+
+
+@media screen and (max-width: 1050px) and (min-width: 700px){
+    .fulltext-search-box {
+        height: 1em;
+    }
+    .header .logo {
+        text-align: center;
+    margin-top: 5px;
+    width: 21%;
+    }
+
+    .header .search {
+        margin-top: 0em;
+        margin-left: 10px !important;
+        /* margin-bottom: 1em; */
+    }
+
+    .header .mini-cart {
+        width: 6em;
+    }
+    .header .button-menu-xs {
+        margin-top: -11px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #hiroshimanagazap{
+       display: none;
+    
+    }
+    .ui-autocomplete {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .depto-computadores span {
+        margin-left: 10px;
+    }
+}
+

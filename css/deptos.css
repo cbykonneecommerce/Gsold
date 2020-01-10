@@ -2,6 +2,10 @@
     border-bottom: none;
 }
 
+.header .search .busca {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
 .title-category h2 {
     background-image: url(/arquivos/conector-titulo.png) !important;
     background-repeat: no-repeat !important;
@@ -12,6 +16,7 @@
     color: #002D42;
     padding-left: 6em;
     font-size: 30px;
+    line-height: 26px;
     width: 14em;
 }
 
@@ -184,7 +189,8 @@ input[type=checkbox]:checked:after {
 }
 @media (max-width: 500px) {
     .title-category h2 {
-        width: 12em;
+        width: 10em;
+        padding-left: 5em;
     }
     #content {
         padding-right: 15px !important;
@@ -208,5 +214,15 @@ input[type=checkbox]:checked:after {
     }
     #product-specs a{
         font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px) { 
+    .prateleira.vitrine > ul > li {
+        float: left;
+    }
+    .navigation-tabs {
+        width: 39em;
     }
 }

@@ -136,7 +136,7 @@ footer {
     }
 
     #vtexlogo {
-        margin-left: -69px !important;
+        margin-left: -40px !important;
     }
 
     .col-atendimento {
@@ -158,5 +158,23 @@ footer {
 
     #newsletter-container{
         height: 16em;
+    }
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 700px){
+    #centerinmobile {
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 5em;
+    }
+    #emailform {
+        width: 142% !important;
+    }
+
+    footer .container-fluid {
+            padding-right: 15px !important;
+            padding-left: 15px !important;
+        
     }
 }

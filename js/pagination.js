@@ -6,10 +6,10 @@ $(document).ready(function() {
     //FILTRO MOBILE
 
 
-    const mq = window.matchMedia("(max-width: 900px)");
+    const mq = window.matchMedia("(max-width: 1000px)");
     if (mq.matches) {
         $(".navigation-tabs").hide();
-        $( "<div class='visible-xs filtro-btn-mobile'><h4>FILTROS</h4></div>" ).insertBefore( ".navigation-tabs" );
+        $( "<div class='visible-xs visible-sm filtro-btn-mobile'><h4>FILTROS</h4></div>" ).insertBefore( ".navigation-tabs" );
         $(".filtro-btn-mobile").click(()=>{
             $( ".navigation-tabs" ).toggle( "slow" )
         })
