@@ -237,6 +237,14 @@ input[type=number]::-webkit-inner-spin-button {
     font-size: 20px !important;
 }
 
+
+.product-info .seletor-sku .select .sku-selector {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 15px;
+
+}
+
 .hvr-sweep-to-right {
     display: inline-block;
     vertical-align: middle;
@@ -520,6 +528,9 @@ input[type=number]::-webkit-inner-spin-button {
         margin-right: 88px;
         margin-bottom: 0px !important;
         margin-top: 20px;
+    }
+    .productName {
+        font-size: 20px !important;
     }
    
 }

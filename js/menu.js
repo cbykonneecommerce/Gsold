@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(".deptonav#novos").css("margin-left", "58%");
         //$(".deptonav#marcas").css("margin-left", "72%");
         // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
-        $(".deptonav#telefonia").css("margin-left", "56%");
+        $(".deptonav#telefonia").css("margin-left", "61%");
         $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
     } else {
         // $(".deptonav#telefonia").css("margin-left", "67%");

@@ -31,6 +31,18 @@ $(document).ready(function() {
     })
 
 
+    const mq = window.matchMedia("(max-width: 600px)");
+
+    if (mq.matches) {
+        $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 200) {
+              $('#comprar-flutuante').fadeIn();
+            } else {
+              $('#comprar-flutuante').fadeOut();
+            }
+          });
+    }
 
 
 
@@ -72,7 +84,7 @@ $(".btn-mais").click(()=>{
 
 })
 
-
+$("#description").show();
 $("#btn-description").click(()=>{
     $("#description").show();
     $("#specification").hide();

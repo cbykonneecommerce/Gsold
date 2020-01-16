@@ -23,6 +23,11 @@ $(window).on('hashchange', function(e){
    });
    $(".pages li.previous", "body").html("<img src='/arquivos/seta-esquerda.png'/>")
    $(".pages li.next", "body").html("<img src='/arquivos/seta-direita.png'/>")
+
+   setInterval(()=>{
+    $(".pages li.previous", "body").html("<img src='/arquivos/seta-esquerda.png'/>");
+    $(".pages li.next", "body").html("<img src='/arquivos/seta-direita.png'/>");
+   }, 1000)
 //codigo de manipulação de filtros
 if ( ! $( ".ribbon-side" ).length ) {
     $( ".navigation-tabs" ).prepend("<div class='ribbon-side'></div><div id='filter-bar'></div");
