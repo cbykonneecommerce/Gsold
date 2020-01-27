@@ -12,10 +12,10 @@ $(document).ready(function () {
         //$(".deptonav#marcas").css("margin-left", "72%");
         // $(".deptonav#marcas .menu-triangle").css("margin-left", "16em");
         $(".deptonav#telefonia").css("margin-left", "61%");
-        $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
+        $(".deptonav#telefonia .menu-triangle").css("margin-left", "13em")
     } else {
         // $(".deptonav#telefonia").css("margin-left", "67%");
-        $(".deptonav#telefonia .menu-triangle").css("margin-left", "16em")
+        $(".deptonav#telefonia .menu-triangle").css("margin-left", "13em")
         //$(".deptonav#marcas").css("margin-left", "75%");
         //$(".deptonav#marcas .menu-triangle").css("margin-left", "19em")
     }

@@ -62,7 +62,10 @@
     padding-bottom: 4%;
 }
 
-
+.out-of-stock {
+    font-size: 22px;
+    font-family: "Zilla Slab" !important;
+}
 @media (min-width: 600px) and (max-width: 1600px)  {
     .prateleira .btn-add-buy-button-asynchronous {
         font-size: 15px;
@@ -70,5 +73,45 @@
     }
     .prateleira .product-name a {
         font-size: 14px !important;
+    }
+
+    .pager.bottom {
+        clear: left;
+    }
+}
+
+@media screen and (max-width: 899px) and (min-width: 600px) { 
+    .prateleira .box-item {
+        height: 482px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 900px) { 
+    .prateleira .box-item {
+        height: 444px;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1100px) { 
+    .prateleira .box-item {
+        height: 505px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1455px) { 
+    .prateleira .box-item {
+        height: 540px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1455px) { 
+    .prateleira .box-item {
+        height: 540px;
+    }
+}
+
+
+@media screen and (min-width: 1601px) { 
+    .prateleira .box-item {
+        height: 596px;
     }
 }

@@ -111,16 +111,24 @@
 							<div class="seletor-sku">
 								<vtex.cmc:skuSelection />
 							</div><!-- .seletor-sku -->
-		
+							<div class="infos" style="margin-bottom: 2em">
+									<p>
+										
+									</p>
+							</div>
 							<div class="buy-button-box hidden-xs">
 							   <!-- <vtex.cmc:BuyButton />--> 
 							   <a class="go-to-cart-button" href="">COMPRAR</a>
 							   <a class="add-to-cart-button" href="">COLOCAR NO CARRINHO</a>
 							   <button class="added-to-cart"><img src="/arquivos/carrotick.png" style="
 								width: 2em;margin-top: -5px;"/><span>ADICIONADO!</span></button>
+								<div class="aviseme">
+									<vtex.cmc:BuyButton />
+								</div>
+								
 		
 							</div><!-- .buy-button-box -->
-					  
+						
 							<div id="product-extra-details-1"></div>  
 		
 							<div class="shipping-box">
@@ -230,8 +238,14 @@
                             <a class="go-to-cart-button flutuante" href="">COMPRAR</a>
                             <!--<a class="add-to-cart-button flutuante" href="">COLOCAR NO CARRINHO</a>-->
                             <button class="added-to-cart"><img src="/arquivos/carrotick.png" style="
-                              width: 2em;margin-top: -5px;" /><span>ADICIONADO!</span></button>
-                        </div> <!-- .buy-button-box -->
+							  width: 2em;margin-top: -5px;" /><span>ADICIONADO!</span></button>
+							  
+
+							  <div class="aviseme">
+								<vtex.cmc:BuyButton />
+							</div>
+						</div> <!-- .buy-button-box -->
+						
         			</div>
         		</div>
         	</div>
@@ -240,7 +254,18 @@
     </div><!-- .container-fluid -->
 
 </body>
-    <vtex:template id="commonScripts" />
+	<vtex:template id="commonScripts" />
+	
+	<script>
+		$(".aviseme").hide();
+
+		const skunow = dataLayer[0].productId;
+		if(dataLayer[0].skuStocks[skunow] == 0) {
+			$(".aviseme").show();
+			$(".go-to-cart-button").hide();
+			$(".add-to-cart-button").hide();
+		}
+	</script>
 
   <script src="/arquivos/product.js"></script>
 </html>

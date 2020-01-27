@@ -17,7 +17,7 @@
     padding-left: 6em;
     font-size: 30px;
     line-height: 26px;
-    width: 14em;
+    width: 15em;
 }
 
 .resultado-busca-filtro {
@@ -189,8 +189,8 @@ input[type=checkbox]:checked:after {
 }
 @media (max-width: 500px) {
     .title-category h2 {
-        width: 10em;
-        padding-left: 5em;
+        width: 13em;
+        padding-left: 4.5em;
     }
     #content {
         padding-right: 15px !important;
@@ -219,10 +219,13 @@ input[type=checkbox]:checked:after {
 
 
 @media screen and (max-width: 1000px) and (min-width: 700px) { 
-    .prateleira.vitrine > ul > li {
+   /* .prateleira.vitrine > ul > li {
         float: left;
-    }
+    }*/
     .navigation-tabs {
         width: 39em;
     }
+
+    
 }
+

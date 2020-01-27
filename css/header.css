@@ -645,4 +645,7 @@ box-shadow: inset 9px -1px 11px -5px rgba(239,130,0,1);
     .header .button-menu-xs {
         margin-top: -14px;
     }
+    #mobile-cart img {
+        width: 76%;
+    }
 }
