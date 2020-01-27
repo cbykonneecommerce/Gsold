@@ -188,12 +188,7 @@ input[type=checkbox]:checked:after {
     font-family: 'Zilla Slab', serif;
 }
 
-@media (max-width: 370px) { 
-    .title-category h2 {
-        width: 11em;
-        padding-left: 4.5em;
-    }
-}
+
 @media (max-width: 500px) {
     .title-category h2 {
         width: 12em;
@@ -235,4 +230,9 @@ input[type=checkbox]:checked:after {
 
     
 }
-
+@media (max-width: 370px) { 
+    .title-category h2 {
+        width: 11em;
+        padding-left: 4.5em;
+    }
+}
