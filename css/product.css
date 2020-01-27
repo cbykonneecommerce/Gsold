@@ -551,5 +551,12 @@ input[type=number]::-webkit-inner-spin-button {
 
 }
 
+@media screen and (min-width: 1701px){
+    .circuit-left, .circuit-right {
+        height: 62em !important;
+    }     
+
+}
+
 
 
