@@ -124,10 +124,11 @@ padding-left: 5em;
 
 .numeros {
     margin-top: 1em;
+    width: 12em;
 }
 
 .numeros i {
-    margin-right: 10px;
+    margin-right: -14px;
 }
 
 #mini-cart-admake {

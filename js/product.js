@@ -89,15 +89,15 @@ $(document).ready(function () {
                 contentSKU = "<b>Novos:</b> São produtos que estão na caixa original e que nunca foram usados.<br>";
                 break;
             case "Ouro":
-                contentSKU = `<img class="medalhas" src="/arquivos/medalha-ouro.png" style="width:2em"><b>Ouro:</b>São produtos que estão em excelente estado, porém não acompanha caixa original.<br>
+                contentSKU = `<img class="medalhas" src="/arquivos/medalha-ouro.png" style="width:2em"><b>Ouro:</b>Produtos que estão em excelente estado, que podem conter riscos imperceptíveis.<br>
             `;
                 break;
             case "Prata":
-                contentSKU = `<img class="medalhas" src="/arquivos/medalha-prata.png" style="width:2em"><b>Prata:</b> São produtos que podem conter mínimos riscos e também não acompanha a caixa original. <br>
+                contentSKU = `<img class="medalhas" src="/arquivos/medalha-prata.png" style="width:2em"><b>Prata:</b> Produtos com riscos e/ou pequenas marcas de uso. <br>
             `;
                 break;
             case "Bronze":
-                contentSKU = `<img class="medalhas" src="/arquivos/medalha-bronze.png" style="width:2em"><b>Bronze:</b> São produtos que podem contar alguns riscos, porém que a estética não afeta o funcionamento do equipamento.`;
+                contentSKU = `<img class="medalhas" src="/arquivos/medalha-bronze.png" style="width:2em"><b>Bronze:</b> Produtos com riscos e avarias (amassados/manchas/trincados) <br>`;
                 break;
 
         }
