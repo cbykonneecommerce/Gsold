@@ -178,3 +178,12 @@ footer {
         
     }
 }
+
+
+
+
+@media screen and (min-width: 1300px) and (max-width: 1750px) {
+    #newsletter-container {
+        height:14em;
+    }
+}

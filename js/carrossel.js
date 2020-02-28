@@ -15,6 +15,19 @@ $("#carouselmarcas").owlCarousel({
 
 });
 
+
+
+$("#destaques").owlCarousel({
+ 
+    autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+    items : 5,
+    itemsDesktop : [1199,5],
+    itemsDesktopSmall : [979,1],
+    navigation: true,
+    stopOnHover: true
+
+});
     
 $("#carouselpropostas").owlCarousel({
  
